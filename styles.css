@@ -1,0 +1,12 @@
+body {
+    background:red
+    
+}
+
+img {
+    border:"2rem" solid color:"black";
+}
+
+figcaption {
+    text-align: center;
+}
