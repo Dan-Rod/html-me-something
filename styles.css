@@ -1,12 +1,105 @@
 body {
-    background:red
-    
+    background-color:  #f8f8f8;
+    padding: .3rem;
+    padding-top: 0rem;
+    font-family: garamond, sans-serif;
+
 }
 
+
+
 img {
-    border:"2rem" solid color:"black";
+    display: block;
+    border: .1rem solid black;
+    max-width: 18rem;
+    height: auto;
+    margin: auto;
+    align-content: center;
+}
+
+video {
+    display: block;
+    border: .1rem solid black;
+    max-width: 18rem;
+    height: auto;
+    margin: auto;
+    align-content: center;
+}
+
+.before img {
+    display: block;
+    border: .2rem solid black;
+    max-width: 18rem;
+    height: auto;
+    margin: auto;
+    padding: .3rem;
+    align-content: center;
+}
+
+.after img {
+    display: block;
+    border: .2rem solid black;
+    max-width: 18rem;
+    height: auto;
+    margin: auto;
+    padding: .3rem;
+    align-content: center;
+}
+
+#long {
+    border: .1rem solid  #bdbdbd ;
+    border-radius: 2rem;
+    padding: .4rem;
+}
+
+#middle {
+    border: .1rem solid  #bdbdbd ;
+    border-radius: 2rem;
+    padding: .4rem;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+th{
+    background-color:  #f8f8f8;  
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+p {
+    margin:.2rem;
 }
 
 figcaption {
+    text-align: center;
+}
+
+.before{
+    background-color:   #fff4e0;
+    font-weight: bold;
+}
+
+
+.during {
+    background-color: #fdffe0;
+    font-weight: normal;
+}
+
+.after {
+    background-color:  #e8fff6 ;
+    font-weight: bold;
+}
+
+.head {
+    font-weight: bolder;
+    font-size: 2rem;
     text-align: center;
 }
